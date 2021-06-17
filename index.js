@@ -13,6 +13,18 @@ const quotes = [
     'I try to fight that. That’s why I have a clock on my wall that runs counterclockwise',
     'We need to understand that if we all work on inclusion together, it’s going to be faster, broader, better, and more thorough than anything we can do on our own',
     'I think it’s very important to get more women into computing. My slogan is: Computing is too important to be left to men',
+    'You should name a variable using the same care with which you name a first-born child',
+    'A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment.',
+    'Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.',
+    'When you see commented-out code, delete it!',
+    'Obsolete comments are worse than no comments.',
+    'Clean code always looks like it was written by someone who cares.',
+    'If you’re good at the debugger it means you spent a lot of time debugging. I don’t want you to be good at the debugger.',
+    'Simplicity is prerequisite for reliability.',
+    'So much complexity in software comes from trying to make one thing do two things.',
+    'Of course bad code can be cleaned up. But it’s very expensive.',
+    'It is not the language that makes programs appear simple. It is the programmer that make the language appear simple!',
+    'One of my most productive days was throwing away 1000 lines of code.',
    
   ];
 
@@ -44,10 +56,11 @@ inputDiv.style.padding = "30px";
 inputDiv.style.borderRadius = "12px";
 inputDiv.style.fontSize = "1.2rem";
 
-buttonQuote.style.width = "12vw";
+buttonQuote.style.background = "transparent";
 buttonQuote.style.padding = "15px";
 buttonQuote.style.borderRadius = "12px";
-buttonQuote.style.border = "none";
+buttonQuote.style.border = "1px solid white";
+buttonQuote.style.color = "white";
 buttonQuote.style.fontSize = "1.2rem";
 
 
